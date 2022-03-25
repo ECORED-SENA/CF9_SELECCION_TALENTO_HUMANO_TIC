@@ -1,0 +1,343 @@
+////// img utilities
+
+.img35
+  width: 35px
+.img60
+  width: 60px
+.img90
+  width: 90px
+.img250
+  width: 250px
+.img350
+  width: 350px
+.img375
+  max-width: 375px
+.img400
+  max-width: 400px
+.img450
+  max-width: 450px
+.img450
+  max-width: 500px
+.img700
+  max-width: 700px
+
+////// Bloques de texto
+
+.bloque-texto-a
+  padding: 2rem 1.5rem
+
+.bt_clr_01
+  background-color: #F6F6F6
+  &::before
+    background-color: #2194E5
+    
+.bt_clr_02
+  background-color: #F6F6F6
+  &::before
+    background-color: #7F4FC7
+
+.cst-circle
+  color:#7F4FC7 !important
+  font-size: 10pt
+  font-weight: 500
+  margin-right: 0.5rem
+
+////// Cajón de texto
+
+.cj--amarillo
+  background-color: #FFECB1
+  &::before
+    background-color: #E2C13A
+
+.cj--amarillo2
+  background-color: #FFFAD8
+  &::before
+    background-color: #EFD198
+
+.cj--morado
+  background-color: #EDE7F7
+  &::before
+    background-color: #CDB8F1
+
+
+/////// utilidades texto
+
+.titulo-sexto.color-acento-contenido
+  border-left-color: #FFA726 !important
+
+.hg--title
+  display: inline-block
+  color: #2194E5
+  border-bottom: 2px solid #2194E5
+
+.bold_purple
+  color: $color-acento-contenido
+  font-weight: 600
+.bold--blue
+  color: #33A0F7
+  font-weight: 600
+
+.bigNumber
+  position: relative
+  p 
+    position: relative
+    margin-left: 2.5rem
+  &::before
+    content: attr(data-number)
+    position: absolute
+    top: 0
+    left: 0
+    font-size: 100pt
+    font-weight: 800
+    line-height: 0    
+    color: #DEDFE2
+  &::after
+    content: ''
+    position: absolute
+    bottom: -0.5rem
+    right: 0
+    width: 45%
+    height: 55%
+    background-color: #EDE7F7
+    z-index: -1
+
+
+//////// utilidades de posicionamiento
+
+.neg--mr
+  margin-right: -5rem
+.neg--ml
+  margin-left: -5rem
+.neg--mt
+  margin-top: -6rem
+
+//////// utilidades de tarjetas
+
+.horizontal-scroll[data-v-e258dbfc]
+  align-items: stretch !important
+
+.horizontal-scroll__wrapper[data-v-e258dbfc]
+  padding: 1rem 0
+
+.crd
+  padding: 2rem
+  &.crd--lightBlue
+    background-color: #EEF6FC
+  &.crd--lightPurple
+    background-color: #EDE7F7
+  &.crd--white    
+    height: 100%
+    margin: 0 0.35rem
+    background-color: #ffffff
+    -webkit-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.12)
+    box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.12)
+    border-radius: 15px
+  &.crd--grPurple
+    height: 100%
+    border-radius: 15px
+    background: linear-gradient(180deg, rgba(8,3,131,1) 0%, rgba(126,83,197,1) 100%)
+  &.crd--grGray
+    height: 100%
+    border-radius: 15px
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(175,175,175,1) 100%)
+  &.crd--145
+    width: 145px
+  &.crd--slider
+    border-radius: 15px
+    background-image: url("../assets/curso/slider_bg.svg")
+    background-size: cover
+    background-position: center center
+
+
+.avatarHr--crd
+  position: relative
+  padding: 1rem 2rem 1rem 0
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    right: 0
+    width: calc( 100% - 45px ) 
+    height: 100%   
+    background-color: #F6F6F6
+    border-radius: 15px
+    -webkit-box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.12)
+    box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.12)
+  &.clr--white
+    &::before
+      background-color: white !important
+
+.avatarVr--crd
+  max-width: 235px
+  padding: 1rem  
+  border-radius: 15px
+  &.gr--01
+    background: linear-gradient(180deg, rgba(126,83,197,1) 0%, rgba(8,3,131,1) 100%)
+  &.gr--02
+    background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(167,179,207,1) 100%)
+
+
+////// utilidades de fondos  
+
+.bg_blue--h0
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 2rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% - 7rem )
+    background-color: #EEF6FC
+
+.bg_blue--h1
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 2rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% - 7rem )
+    background-color: #F8FBFD
+
+.bg_gris--h0
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: rgb(246,246,246)
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 100%) 
+
+.bg_gris--h1
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 80%
+    background: rgb(246,246,246)
+    background: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,255,255,1) 100%) 
+
+.bg_gris--h3
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(90deg, rgba(238,246,252,1) 0%, rgba(255,255,255,1) 100%)
+
+.bg_gris--h4
+  position: relative
+  .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 100%)
+
+.bg_gradient--01
+  position: relative
+  .row, p, .crd, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -1rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/bg_01.svg")
+    background-repeat: no-repeat
+
+.bg_gradient--02
+  position: relative
+  .row, p, .crd, figure, .titulo-sexto
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -1rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(166,166,166,0.35) 19%, rgba(255,255,255,1) 100%)
+
+.bg_gradient--03
+  position: relative
+  .row, p, .crd, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    bottom: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/bg_02.svg")
+    background-repeat: no-repeat
+  &.alpha1
+    &::before
+      opacity: 0.5      
+
+
+//////// Utilidades tablas
+
+.tabla-a.color-acento-amarillo thead 
+  border-color: #FFA726
+
+/////// Linea de tiempo D
+
+.linea-tiempo-d.color-amarillo .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #EFD198
+  color: #12263F
+
+////// Slyder
+
+.slyder-a__bullets__item--active
+  background-color: #E2C140 !important
+  border-color: #E2C140 !important
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: #89a0bd
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  border: 1px solid #83acd3
+
+
+    

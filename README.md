@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **Planificación del proceso de reclutamiento o atracción de candidatos**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF9_SELECCION_TALENTO_HUMANO_TIC/](https://ecored-sena.github.io/CF9_SELECCION_TALENTO_HUMANO_TIC/)
 
 #
 
