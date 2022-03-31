@@ -6,22 +6,22 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 4
-      h1 Recursos y presupuesto  
+      h1 Reclutamiento
 
 
     .bg_blue--h1.mb-4
       .row  
         .col-lg-5
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_01.png", alt="alt").m-auto.img450
         .col-lg-7        
           p.mb-4 Las organizaciones están conformadas por personas, quienes de manera articulada logran objetivos comunes.  En la medida en que tengan éxito, las organizaciones sobrevivirán y crecerán, es así como el proceso de selección debe beneficiar tanto a la organización como al nuevo colaborador; los objetivos organizacionales (lo que la empresa pretende alcanzar): utilidades, productividad, calidad, eficiencia, etc., deben alinearse con los objetivos individuales (lo que la persona pretende lograr): salario, beneficios sociales, seguridad, reconocimiento, etc. 
-          .cajon.cj--amarillo2.p-4.neg--ml
+          .cajon.cj--amarillo2.p-4.neg--ml(data-aos="slide-left")
             p.mb-0 Ubicar en cada puesto a la persona que tiene los conocimientos y competencias requeridas para el cargo es el mejor pronóstico que se tiene, que se cuenta con la persona con los talentos necesarios para llevar adelante las tareas respectivas, y esto es bueno tanto para la organización como para la persona que ocupará dicho puesto de trabajo. #[strong Esta ecuación incrementa la motivación].
 
     p Cuando la organización inicia una búsqueda de personal, debe decidir cómo la realizará, esto significa tener en cuenta tres posibles acciones: buscar al interior de la empresa, en el mercado laboral, o tener en cuenta ambas alternativas, lo cual  corresponde al aprovisionamiento con el que debe contar el área de talento humano y proceder así a la búsqueda de los candidatos con el perfil profesional deseado. De la misma forma, debe elegir los medios a utilizar para cumplir con el requerimiento de acuerdo con las necesidades de la organización y atraer a las personas idóneas para el puesto.
 
-    .crd.crd--lightPurple.mb-5
+    .crd.crd--lightPurple.mb-5(data-aos="slide-right")
       .row.align-items-center
         .col-auto
           figure
@@ -33,11 +33,11 @@
       .row.justify-content-center.pb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido
-            h5 figura 4.
+            h5 Figura 4.
             span Planeamiento y selección
           figure.mb-4
             img(src="@/assets/curso/tema4/t4_02.svg", alt="alt").m-auto
-            figcaption Nota. Adaptada de Alles (2016).
+            figcaption Nota. #[span.fnt--regular Adaptada de Alles (2016).]
 
     .bg_gris--h1
       .row.mb-4.pt-5
@@ -62,9 +62,9 @@
                     p.mb-0 A través del siguiente video, podrá analizar la importancia de cómo es percibida la organización en el mercado de talento humano durante el proceso de atraer los mejores candidatos. 
                   .col-sm-auto
                     a.boton.color-acento-botones(href="https://www-gestionhumana-com.bdigital.sena.edu.co/marca-del-empleador-clave-en-la-atraccion-y-retencion-del-talento-durante-el-covid-19" target="_blank")
-                      span ver video                     
+                      span Ver video                     
         .col-lg-4.d-none.d-lg-flex
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_03.png", alt="alt").m-auto.img400
 
     .bloque-texto-a.bt_clr_02.mb-5 
@@ -111,22 +111,22 @@
             figure
               img(src='@/assets/curso/tema4/t4_07.svg', alt='').m-auto.img350     
 
-    .crd.crd--lightBlue.mb-5
+    .crd.crd--lightBlue.mb-5(data-aos="slide-right")
       .row.align-items-center
         .col-auto
           figure
             img(src="@/assets/curso/dots_01.svg", alt="alt").img35
         .col
-          p.mb-0 Para ampliar la información sobre el proceso de planeación del talento humano, el diseño de cargo y el proceso de reclutamiento, se le invita a leer el artículo #[span.bold--blue “Los macro-procesos: un nuevo enfoque en el estudio de la Gestión Humana”], el cual se encuentra en el material complementario.
+          p.mb-0 Para ampliar la información sobre el proceso de planeación del talento humano, el diseño de cargo y el proceso de reclutamiento, se le invita a leer el artículo #[span.bold--blue “Los macro-procesos: un nuevo enfoque en el estudio de la Gestión Humana”], el cual se encuentra en el material complementario
 
     .bg_blue--h1.mb-4
       .row  
         .col-lg-4
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_07.png", alt="alt").m-auto.img400
         .col-lg-8        
           p.m-4.pt-5 El proceso de selección no ha sido ajeno a los cambios generados a nivel mundial y, en congruencia con los avances tecnológicos, ha realizado los ajustes que le permiten estar a la vanguardia de los nuevos tiempos. Se podría decir que ha pasado por varias olas desde la década de los 90 hasta ahora. La primera ola, la del papel, donde todas las hojas de vida eran presentadas físicamente a la organización, representó mayores limitaciones, tanto para el reclutador como para el futuro candidato; la segunda ola, de transición, se inicia con la posibilidad de utilizar los sitios y páginas web y el uso de teléfonos móviles; la tercera ola, identificada como plenitud digital, incluyendo adicionalmente las redes sociales profesionales (RRSS); y la ola actual, del talento y el networking, que tiene que ver con la imagen de marca.
-          .cajon.cj--amarillo2.p-4.neg--ml
+          .cajon.cj--amarillo2.p-4.neg--ml(data-aos="slide-left")
             p.mb-0 Para ampliar la información sobre el avance de los procesos de selección según la utilización de la tecnología de la información, se le invita a leer el artículo #[span.bold--blue “Evolución del reclutamiento: del 1.0 al 4.0”], el cual se encuentra en el material complementario
 
     .row.align-items-center.mb-5
@@ -139,7 +139,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-            h5 figura 5.
+            h5 Figura 5.
             span  Ejemplo perfil de cargo
         figure
           img(src="@/assets/curso/tema4/t4_08.svg", alt="alt").m-auto
@@ -149,23 +149,23 @@
         .col-lg-8
           p.mb-4 De manera que la empresa, dentro de sus políticas de talento humano, debe definir el tipo de reclutamiento que se va a realizar (interno, externo o mixto) y las fuentes (internas o externas) que tendrá en cuenta para la puesta en marcha del proceso. Llegados a este punto, se hará la recepción de hojas de vida y revisión de antecedentes de los candidatos preseleccionados. 
 
-          .cajon.cj--morado.p-4.neg--mr.mb-4.mb-lg-0
+          .cajon.cj--morado.p-4.neg--mr.mb-4.mb-lg-0(data-aos="slide-right")
             p.mb-0 La siguiente figura nos presenta los pasos descritos anteriormente sobre el proceso de selección.
         .col-lg-4
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_09.png", alt="alt").m-auto.img450
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-            h5 figura 6.
+            h5 Figura 6.
             span Pasos del proceso de preselección
         figure
           img(src="@/assets/curso/tema4/t4_10.svg", alt="alt").m-auto
 
-    .row
+    .row.mb-5
       .col-lg-5
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema4/t4_11.png", alt="alt").m-auto
       .col-lg-7
         h4.hg--title Tipos de reclutamiento
@@ -178,7 +178,7 @@
 
           p(numero="3" titulo="Mixto") Incluye ambas modalidades. 
 
-    .crd.crd--lightBlue.mb-5
+    .crd.crd--lightBlue.mb-5(data-aos="slide-right")
       .row.align-items-center
         .col-auto
           figure
@@ -193,20 +193,20 @@
       span Ventajas y desventajas de reclutamiento interno 
     .tabla-a.color-acento-amarillo.mb-5
       table
-        caption Nota. Adecuación Chiavenato, (2013).
+        caption Nota. #[span.fnt--regular Adecuación Chiavenato, (2013).]
         thead
-          tr
+          tr.cell--blue
             th(colspan='2') Reclutamiento interno
             
         tbody
-          tr
+          tr.Tbg--gray
             td.text-center #[strong Ventajas]
             td.text-center #[strong Desventajas]            
           tr
             td Aprovecha potencial humano de la organizaci&oacute;n.
             td Evita la renovaci&oacute;n de experiencia y nuevas ideas.
             
-          tr
+          tr.Tbg--gray
             td Motiva al empleado, al crear oportunidades de promoci&oacute;n o transferencia.
             td El proceso podr&iacute;a sesgarse, por aspectos como antig&uuml;edad o preferencias.
             
@@ -214,7 +214,7 @@
             td Retorno de la inversi&oacute;n en capacitaci&oacute;n por parte de la organizaci&oacute;n.
             td En caso de no poseer un plan de carrera para cada trabajador.
             
-          tr
+          tr.Tbg--gray
             td Menores costos en el proceso.
             td
             
@@ -222,7 +222,7 @@
             td M&aacute;s seguro en cuanto a los resultados finales. 
             td
             
-          tr
+          tr.Tbg--gray
             td M&aacute;s r&aacute;pido en comparaci&oacute;n con el reclutamiento externo.
             td
 
@@ -231,18 +231,18 @@
       span Ventajas y desventajas de reclutamiento externo 
     .tabla-a.color-acento-amarillo.mb-5
       table
-        caption Nota. Adecuación Chiavenato (2013).        
+        caption Nota. #[span.fnt--regular Adecuación Chiavenato (2013).]       
         thead
-          tr
+          tr.cell--blue
             th(colspan='2') Reclutamiento externo
         tbody
-          tr
+          tr.Tbg--gray
             td.text-center #[strong Ventajas]
             td.text-center #[strong Desventajas]
           tr
             td Atrae experiencia y habilidades que no se encuentran dentro de la organizaci&oacute;n.
             td Tiende a afectar negativamente la motivaci&oacute;n del talento humano. 
-          tr
+          tr.Tbg--gray
             td Incentiva la interacci&oacute;n de la organizaci&oacute;n con el mercado de talento humano.
             td Mayores costos en el proceso.
           tr
@@ -257,27 +257,27 @@
           p.mb-4 #[span.bold_purple expresión fuentes de reclutamiento hace referencia a las opciones disponibles para obtener postulaciones en relación con el perfil del cargo, y al igual que el reclutamiento, pueden ser internas o externas.] M. Alles (2016) se refiere a las fuentes como canales de acceso al mercado laboral. Según el tipo de reclutamiento y las circunstancias, se elegirán las fuentes más adecuadas. Por esta razón, el proceso de selección debe implementarse de acuerdo con los requerimientos de la organización y sus perfiles. Es indispensable una buena planificación de recursos humanos para proveer herramientas con las que la empresa pueda satisfacer los requerimientos de personal en un futuro cercano.
           p.mb-4 Para lo anterior, es de relevancia el análisis de puestos y el uso de técnicas efectivas de comunicación.      
         .col-lg-3
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_12.png", alt="alt").m-auto.img250
     
-    .row.align-items-center
+    .row.align-items-center.mb-4
       .col-auto
         figure
           img(src="@/assets/curso/dots_06.svg", alt="alt").img90
       .col
         p.mb-0 #[span.bold--blue Ahora bien, es imprescindible abordar las nuevas tendencias en los procesos de selección de personal y el abordaje de estrategias innovadoras por parte de las organizaciones para contratar al mejor talento humano. La elección de fuentes de reclutamiento implica desde reclutamiento a través de anuncios en periódicos y revistas hasta la utilización de bases de datos, ya sean propias o de terceros. En la actualidad, ya muchas personas publican su perfil en las redes sociales profesionales, estrategia que le permite al reclutador contactar a las personas con el perfil de manera inmediata.]
 
-        p Tal como mencionamos en los tipos de reclutamiento, también las fuentes pueden ser:
+    p Tal como mencionamos en los tipos de reclutamiento, también las fuentes pueden ser:
 
     .bg_blue--h1.mb-4
       .row  
         .col-lg-4
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_13.png", alt="alt").m-auto.img400
         .col-lg-8        
           p.pt-5 #[i.cst-circle.far.fa-dot-circle]#[span.bold_purple Internas:] se refiere a las técnicas o medios a los que el área de talento humano recurre al interior de la organización, es decir, los trabajadores; dicha decisión beneficia a la organización y al trabajador, dado que permite al personal ascender y desarrollarse. Si la organización posee un inventario de personal, se le facilitará la disponibilidad de la información sobre los posibles empleados que puedan aplicar para la vacante requerida.
 
-          .cajon.cj--amarillo2.p-4.neg--ml.mb-4
+          .cajon.cj--amarillo2.p-4.neg--ml.mb-4(data-aos="slide-left")
             p.mb-0 Autores como Marta Alles (2016) se refieren al Job Posting, o autopostulación, como una fuente de reclutamiento interna donde el empleado se postula a través de las publicaciones que la organización hace a través de la intranet o carteleras internas. Si la organización se decide por este procedimiento, es crucial que tenga muy en cuenta que dentro de las políticas queden claramente establecidos los criterios a tener en cuenta para la postulación y, de esta manera, el procedimiento goce de transparencia.
 
           p #[i.cst-circle.far.fa-dot-circle]#[span.bold_purple Externas:] estas se encuentran disponibles en el mercado laboral y permiten tener contacto directo con el mercado de talento humano. 
@@ -358,10 +358,10 @@
       .row.mb-4.pt-5
         .col-lg-8
           p.mb-4 Ante múltiples opciones, la organización tiene el reto de elegir los medios acordes con su necesidad y la de los posibles opcionados. Las redes sociales permiten generar a los usuarios un perfil público con información personal y laboral que les permite interactuar con otros usuarios, y de esta manera, la organización tiene acceso directo y ágil a la información, por lo que puede identificar los candidatos que cumplan con el perfil de búsqueda.
-          .cajon.cj--amarillo2.p-4.neg--mr.mb-5
+          .cajon.cj--amarillo2.p-4.neg--mr.mb-5(data-aos="slide-right")
             p.mb-0 Por otro lado, los portales de empleo ofrecen un alto volumen de oferta, presentando la información categorizada (sector, tipo de trabajo, etc.), lo que contribuye al acceso inmediato a los datos requeridos.
         .col-lg-4
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_18.png", alt="alt").m-auto.img500
 
     .row.align-items-center.mb-5
@@ -374,7 +374,7 @@
     .bg_gris--h4.mb-4
       .row.mb-4.pt-4
         .col-lg-4
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_19.png", alt="alt").m-auto.img500
         .col-lg-8.pt-4
           p.mb-4 Un componente adicional para la utilización del e-reclutamiento es el caso de las nuevas generaciones, como los millennials, quienes por su alta exposición a la tecnología y a la información presentan un uso intenso de las redes sociales, lo cual indica que las publicaciones por parte de la empresa exigen ser atractivas y visuales. Aspectos como la información financiera, crecimiento laboral, ambiente flexible que les permita desarrollar su potencial son elementos esenciales para captar su atención.

@@ -11,7 +11,7 @@
     .bloque-texto-a.bt_clr_01.p-3.p-md-3.mb-5 
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/intro/intro.png", alt="alt").m-auto.img350
         .col-lg-8
           .bloque-texto-a__texto.p-4

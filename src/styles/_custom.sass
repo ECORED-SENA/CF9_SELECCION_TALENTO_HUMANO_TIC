@@ -6,6 +6,8 @@
   width: 60px
 .img90
   width: 90px
+.img106
+  width: 106px
 .img250
   width: 250px
 .img350
@@ -41,6 +43,9 @@
   font-size: 10pt
   font-weight: 500
   margin-right: 0.5rem
+
+.fnt--regular
+  font-weight: 500 !important
 
 ////// Cajón de texto
 
@@ -106,18 +111,29 @@
 
 .neg--mr
   margin-right: -5rem
+  z-index: 999
+  @media only screen and (max-width: 999px)
+    margin-right: 0
+
 .neg--ml
   margin-left: -5rem
+  z-index: 999
+  @media only screen and (max-width: 999px)
+    margin-left: 0
+
 .neg--mt
   margin-top: -6rem
+  z-index: 999
+  @media only screen and (max-width: 999px)
+    margin-top: 0
 
 //////// utilidades de tarjetas
 
-.horizontal-scroll[data-v-e258dbfc]
+.horizontal-scroll
   align-items: stretch !important
 
-.horizontal-scroll__wrapper[data-v-e258dbfc]
-  padding: 1rem 0
+.horizontal-scroll__wrapper
+  padding: 1rem 0 !important
 
 .crd
   padding: 2rem
@@ -320,6 +336,17 @@
 .tabla-a.color-acento-amarillo thead 
   border-color: #FFA726
 
+.Tbg--gray
+  background-color: #f1f1f1 !important
+
+.tb--title
+  font-size: 1em !important
+
+.cell--blue
+  background-color: #12263F !important
+  color: white !important
+  font-size: 1.25em
+
 /////// Linea de tiempo D
 
 .linea-tiempo-d.color-amarillo .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
@@ -338,6 +365,23 @@
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   border: 1px solid #83acd3
+
+///////// custom banner
+.bloque-texto-a:before
+  left: 42%
+
+/////// Linea de tiempo B
+
+.linea-tiempo-d__item > .linea-tiempo-d__item__col-number > .linea-tiempo-d__item__number
+  background-color: #E6E6E6 
+
+.linea-tiempo-d__item > .col > .linea-tiempo-d__item__content
+  background-color: #E6E6E6 
+
+.linea-tiempo-d__item.linea-tiempo-d__item--selected > .col > .linea-tiempo-d__item__content
+  background-color: #F6F6F6
+
+  
 
 
     

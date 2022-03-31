@@ -204,6 +204,11 @@ export default {
     {
       termino: 'LinkedIn',
       significado:
+        'red profesional líder a nivel mundial, es una comunidad social orientada a las empresas, negocios y el empleo. Partiendo del perfil de cada usuario, que libremente revela su experiencia laboral y sus destrezas en un verdadero CV laboral, la web pone en contacto a millones de personas y empresas.',
+    },
+    {
+      termino: 'Motivación',
+      significado:
         'motivo es aquello que impulsa a una persona a actuar de determinada manera; la motivación es uno de los factores internos de los seres humanos que requiere mayor atención.<br><br>Interés recurrente para el logro de un objetivo; energiza, orienta y selecciona comportamientos.',
     },
     {
@@ -225,31 +230,42 @@ export default {
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Ultreya Proyecto Ultreya. (2014). El mercado laboral [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=2YWjX4jvtNU',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'IM Gestión Humana Consultoría RRHH. (2020). Políticas de reclutamiento, selección y de contratación de personal [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dLU8s9xvcPo',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Gutiérrez, L. (2021). Atracción y retención del talento humano durante el COVID 19 [video]. SENA.',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link:
+        'https://www-gestionhumana-com.bdigital.sena.edu.co/marca-del-empleador-clave-en-la-atraccion-y-retencion-del-talento-durante-el-covid-19',
+    },
+    {
+      texto:
+        'García, M. (2009). Los macroprocesos: un nuevo enfoque al estudio de la Gestión Humana. Pensamiento y gestión, (27), p. 169-176. ',
+      tipo: 'Artículo',
+      descarga: '/downloads/n27a06.pdf',
+    },
+    {
+      texto:
+        'Estébanez, B. (2019). Evolución del reclutamiento: 1.0 al 4.0. GBS Recursos Humanos.',
+      tipo: 'Artículo',
+      link:
+        'https://www.gbsrecursoshumanos.com/blog/evolucion-del-reclutamiento/',
+    },
+    {
+      texto:
+        'Economía y Negocios. (2021). Estas son las tendencias de reclutamiento laboral para el 2021. El Tiempo.',
+      tipo: 'Artículo',
+      link:
+        'https://www.eltiempo.com/economia/sectores/cuales-son-las-tendencias-de-reclutamiento-de-personal-para-el-2021-560046',
     },
   ],
   creditos: {
@@ -265,7 +281,22 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Alexis Viloria Guerrero',
+        cargo: 'Experto temático',
+        centro: 'Centro de Gestión Industrial - Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Metodóloga para la formación virtual',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -273,53 +304,53 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Magdi Khalifah',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Nombre',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Álvaro Andrés Angarita Ramirez',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },

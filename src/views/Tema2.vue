@@ -10,19 +10,19 @@
 
     .bg_gris--h0.mb-4
       .row.mb-4.pt-5
-        .col-lg-7
+        .col-lg-7.order-2.order-lg-1
           p La palabra política proviene del griego politiké que significa “arte de gobernar una nación”. El diccionario señala que la política es el arte o trazo con que se maneja un asunto. A su vez, trazo significa “plan para realizar un fin”. Generalmente, este vocablo tiene dos acepciones: la que se utiliza en la burocracia gubernamental, y otra en la que se le considera como un elemento del proceso de planeación. (García et al., 2009)
-          .cajon.cj--amarillo.p-4.neg--mr.mb-4.mb-lg-0
+          .cajon.cj--amarillo.p-4.neg--mr.mb-4.mb-lg-0(data-aos="slide-right")
             p.mb-0 Las políticas son guías para orientar la acción, criterios y lineamientos generales que ayudan en el logro de los objetivos y la toma de decisiones dentro de una organización, facilitando la realización de la estrategia. 
-        .col-lg-5
-          figure
+        .col-lg-5.order-1.order-lg-2.mb-5.mb-lg-0
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema2/t2_01.png", alt="alt").m-auto.img500
 
     
     .bg_gradient--03.pb-5
       .row.mb-5
         .col-lg-4
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema2/t2_02.png", alt="alt").m-auto.img375
         .col-lg-8.pt-4
           .row.align-items-center.mb-5
@@ -33,15 +33,15 @@
               p.mb-0 #[span.bold_purple Para definir las políticas y normas dentro del proceso de selección, es necesario tener claros los conceptos organización, planeación organizacional, y su articulación con la función de gestión del talento humano, es decir, traducir los objetivos y estrategias corporativas con los objetivos y estrategias de talento humano.]
           .row.justify-content-center
             .col-lg-10
-              .avatarHr--crd.clr--white.mb-4
+              .avatarHr--crd.clr--white.mb-4(data-aos="slide-left")
                 .row.align-items-center
                   .col-auto
                     figure
                       img(src="@/assets/curso/tema2/t2_03.svg", alt="alt").m-auto.img90
                   .col
-                    p.mb-0 #[strong Tenga en cuenta:] la planeación estratégica de talento humano debe estar alineada con la planeación estratégica de la organización.
+                    p.mb-0 #[span.bold--blue Tenga en cuenta:] la planeación estratégica de talento humano debe estar alineada con la planeación estratégica de la organización.
 
-      .crd.crd--lightPurple
+      .crd.crd--lightPurple(data-aos="slide-right")
         .row.align-items-center
           .col-auto
             figure
@@ -58,9 +58,9 @@
               figure
                 img(src="@/assets/curso/dots_03.svg", alt="alt").img35
             .col
-              p.mb-0 Para ampliar la información, se le invita a ver el video #[strong.bold--blue “Políticas de reclutamiento, selección y de contratación de personal”], el cual se encuentra en el material complementario.
+              p.mb-0 #[strong.bold--blue Para ampliar la información, se le invita a ver el video  “Políticas de reclutamiento, selección y de contratación de personal”, el cual se encuentra en el material complementario.]
         .col-lg-5
-          figure
+          figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema2/t2_04.png", alt="alt").m-auto.img500
 
     .bloque-texto-a.bt_clr_02.mb-5 
@@ -71,7 +71,7 @@
 
     .row.align-items-center.mb-5 
       .col-lg-4
-        figure
+        figure(data-aos="zoom-in")
           img(src="@/assets/curso/tema2/t2_05.png", alt="alt").m-auto.img350
       .col-lg-8
         LineaTiempoD.color-secundario
@@ -174,7 +174,7 @@
           p.mb-5 En la siguiente figura, se destacan los aspectos que tienen que ver con los objetivos, proceso, ventajas y desventajas de las políticas de talento humano.
 
           .titulo-sexto.color-acento-contenido
-            h5 figura 2.
+            h5 Figura 2.
             span  Políticas de recursos humanos
           figure
             img(src="@/assets/curso/tema2/t2_19.svg", alt="alt").m-auto
