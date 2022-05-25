@@ -52,7 +52,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -146,9 +146,8 @@ export default {
     },
     {
       referencia:
-        'Gómez, J. (2002). Lineamientos Pedagógicos para una Educación por Competencias. En G. Bustamante, S de Z., M. Bacarat, N. Graziano y L. Marín, El concepto de competencia II. Una mirada interdisciplinar. Sociedad Colombiana de Pedagogía.',
-      link:
         'González, Á. (2007). Método de Compensación Basado en Competencias. Ediciones Uninorte.',
+      link: '',
     },
   ],
   glosario: [

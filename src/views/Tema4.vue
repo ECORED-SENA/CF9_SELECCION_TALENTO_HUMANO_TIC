@@ -101,7 +101,7 @@
               img(src='@/assets/curso/tema4/t4_06.svg', alt='').m-auto.img350                          
           .col-md-7
             .bigNumber(data-number="03")
-              p.mb-0 La descripción y perfil del cargo es un documento que debe contar con toda la información del contenido del cargo y los requisitos que se precisan para cumplir con las tareas asignadas. Cuando describimos el cargo, lo hacemos respondiendo las preguntas: ¿Qué se hace? ¿Para qué se hace? ¿Cómo se hace? ¿Cuándo lo hace?¿Dónde se hace?, información que permite conocer el contenido del cargo y, con base en ella, se describe el cargo. Al analizarse, se sientan las bases para construir el perfil del cargo, donde se plasmarán los requisitos que necesita una persona para cumplir con la descripción o contenido del cargo, que pueden ser físicos, intelectuales, nivel de responsabilidad y condiciones de trabajo. 
+              p.mb-0 La descripción y perfil del cargo es un documento que debe contar con toda la información del contenido del cargo y los requisitos que se precisan para cumplir con las tareas asignadas. Cuando describimos el cargo, lo hacemos respondiendo las preguntas: ¿Qué se hace? ¿Para qué se hace? ¿Cómo se hace? ¿Cuándo lo hace? ¿Dónde se hace?, información que permite conocer el contenido del cargo y, con base en ella, se describe el cargo. Al analizarse, se sientan las bases para construir el perfil del cargo, donde se plasmarán los requisitos que necesita una persona para cumplir con la descripción o contenido del cargo, que pueden ser físicos, intelectuales, nivel de responsabilidad y condiciones de trabajo. 
 
         .row.align-items-center.pt-4                                   
           .col-md-7
