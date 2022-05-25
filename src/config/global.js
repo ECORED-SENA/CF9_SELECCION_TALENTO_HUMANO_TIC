@@ -241,13 +241,6 @@ export default {
     },
     {
       texto:
-        'Gutiérrez, L. (2021). Atracción y retención del talento humano durante el COVID 19 [video]. SENA.',
-      tipo: 'Video',
-      link:
-        'https://www-gestionhumana-com.bdigital.sena.edu.co/marca-del-empleador-clave-en-la-atraccion-y-retencion-del-talento-durante-el-covid-19',
-    },
-    {
-      texto:
         'García, M. (2009). Los macroprocesos: un nuevo enfoque al estudio de la Gestión Humana. Pensamiento y gestión, (27), p. 169-176. ',
       tipo: 'Artículo',
       descarga: '/downloads/n27a06.pdf',

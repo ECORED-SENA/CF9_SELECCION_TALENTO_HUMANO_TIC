@@ -49,20 +49,9 @@
               figure
                 img(src="@/assets/curso/dots_04.svg", alt="alt").img90
             .col
-              p.mb-0 #[span.bold_purple La capacidad de la empresa para atraer buenos candidatos se relaciona con la organización en su conjunto, e implica prácticas que la lleven a obtener un prestigio externo altamente positivo, con el propósito de que, en el momento en que se desee cubrir un vacante y se realicen acciones de reclutamiento, las personas se sientan motivadas, deseen pertenecer a esa organización y respondan a la convocatoria.]
-
-          .tarjeta.color-primario.p-3.mb-5
-            .row.justify-content-around.align-items-center
-              .col-auto
-                img(src="@/assets/componentes/ej-02.svg").img60
-              .col
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0
-                    h5.mb-1 Atracción y retención del talento humano durante el COVID 19
-                    p.mb-0 A través del siguiente video, podrá analizar la importancia de cómo es percibida la organización en el mercado de talento humano durante el proceso de atraer los mejores candidatos. 
-                  .col-sm-auto
-                    a.boton.color-acento-botones(href="https://www-gestionhumana-com.bdigital.sena.edu.co/marca-del-empleador-clave-en-la-atraccion-y-retencion-del-talento-durante-el-covid-19" target="_blank")
-                      span Ver video                     
+              p.mb-0 #[span.bold_purple La capacidad de la empresa para atraer buenos candidatos se relaciona con la organización en su conjunto, e implica prácticas que la lleven a obtener un prestigio externo altamente positivo, con el propósito de que, en el momento en que se desee cubrir un vacante y se realicen acciones de reclutamiento, las personas se sientan motivadas, deseen pertenecer a esa organización y respondan a la convocatoria.]   
+                 
+                                           
         .col-lg-4.d-none.d-lg-flex
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/t4_03.png", alt="alt").m-auto.img400
